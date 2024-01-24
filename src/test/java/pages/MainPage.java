@@ -2,6 +2,7 @@ package pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selectors.byName;
 import static com.codeborne.selenide.Selectors.byText;
@@ -18,12 +19,12 @@ public class MainPage {
         searchInput.setValue(value).pressEnter();
         return this;
     }
-
+@Step ("Открываем гоавную страницу")
     public MainPage openPage() {
         open("https://www.citilink.ru/");
         return this;
     }
-
+@Step ("Проверяем результат поиска")
     public MainPage checkSearchResult() {
         $(".app-catalog-1ywclaa:nth-child(1) .e1ys5m360").shouldHave(Condition.text("Батареи для ноутбуков"));
 //        href="/search/?text=Apple%20MacBook%20Pro&menu_id=3"
