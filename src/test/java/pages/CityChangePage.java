@@ -13,7 +13,7 @@ public class CityChangePage {
     TestData testData = new TestData();
     private SelenideElement
     citySearch = $(byName("search-city"));
-    @Step ("Нажимаем навыбор города")
+    @Step ("Нажимаем на выбор города")
     public CityChangePage CityChangeButton() {
         $(".css-0 > .elgmz660").click();
         return this;
@@ -40,5 +40,4 @@ public class CityChangePage {
         return this;
     }
 }
-//    $(byXpath("//a[@href='/selenide/selenide']")).click();
-//$((byXpath("//a[@href='tel:+74852673367']")).shouldBe(visible);
+

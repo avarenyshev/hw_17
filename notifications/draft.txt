@@ -1,0 +1,9 @@
+6761796856:AAHr5OQCQF6L7x-ulYRM_G4JM8TouNjDcE8 - token
+
+https://api.telegram.org/bot6761796856:AAHr5OQCQF6L7x-ulYRM_G4JM8TouNjDcE8/getUpdates
+
+chat ID - 1001920440945
+
+java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.2.1.jar
+
+java "-DconfigFile=notifications/config.json" -jar ./notifications/allure-notifications-4.6.1.jar
