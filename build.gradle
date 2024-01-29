@@ -58,6 +58,4 @@ task acceptence(type: Test) {
     useJUnitPlatform {
         includeTags("acceptence")
     }
-
-
 }

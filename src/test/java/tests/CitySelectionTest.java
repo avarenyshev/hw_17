@@ -1,6 +1,7 @@
 package tests;
 
 import data.TestData;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.CityChangePage;
@@ -12,6 +13,7 @@ public class CitySelectionTest {
     TestData testData = new TestData();
 
     @Test
+    @DisplayName("Проверка выбора города")
     @Tag("acceptence")
     void CitySelectionTest() {
         mainPage.openPage();
@@ -22,6 +24,7 @@ public class CitySelectionTest {
     }
 
     @Test
+    @DisplayName("Проверка доступности поиска по городу")
     @Tag("smoke")
     void AvalibleSearchTest() {
         mainPage.openPage();
