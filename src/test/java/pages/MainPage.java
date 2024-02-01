@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.executeJavaScript;
 import static com.codeborne.selenide.Selenide.$;
+import static io.qameta.allure.Allure.step;
 
 public class MainPage {
     private SelenideElement
@@ -17,7 +18,7 @@ public class MainPage {
 
 
     public MainPage inputQuery(String value) {
-        searchInput.setValue(value).pressEnter();
+            searchInput.setValue(value).pressEnter();
         return this;
     }
     public MainPage avalibleInputSearch() {
@@ -33,13 +34,13 @@ public class MainPage {
 
     @Step("Проверяем результат поиска")
     public MainPage checkSearchResult() {
-        $(".app-catalog-1ywclaa:nth-child(1) .e1ys5m360").shouldHave(visible);
+            $(".app-catalog-1ywclaa:nth-child(1) .e1ys5m360").shouldHave(visible);
         return this;
     }
 
     @Step("Проверяем результат поиска по ID товара")
     public MainPage chechSearchIdResult() {
-        $(".app-catalog-1iqe8jj > .app-catalog-1k0cnlg").shouldHave(Condition.visible);
+            $(".app-catalog-1iqe8jj > .app-catalog-1k0cnlg").shouldHave(Condition.visible);
         return this;
     }
 }

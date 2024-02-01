@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4a839fc-1e8f-48d8-ab93-1ebc0f35dfb5" name="Changes" comment="added CitySelectionTest&#10;added CityChangePage.java&#10;passed 2 local tests">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f4a839fc-1e8f-48d8-ab93-1ebc0f35dfb5" name="Changes" comment="added display name">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/data/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CitySelectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CitySelectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,6 +46,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;avarenyshev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d1c102ba-15b4-42e8-a096-0ac4cf28e0ca" />
+        <option name="url" value="https://github.com/avarenyshev/hw_17" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -45,11 +75,23 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marak/IdeaProjects/hw_17&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CitySelectionTest.AvalibleSearchTest">
-    <configuration name="CitySelectionTest.AvalibleSearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marak\IdeaProjects\hw_17" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marak\IdeaProjects\hw_17\notifications" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="helpers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.hw_17 [allureServe]">
+    <configuration name="CitySelectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -62,7 +104,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.CitySelectionTest.AvalibleSearchTest&quot;" />
+            <option value="&quot;tests.CitySelectionTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -73,7 +115,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CitySelectionTest.CitySelectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -86,7 +128,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.CitySelectionTest.CitySelectionTest&quot;" />
+            <option value="&quot;tests.SearchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -97,7 +139,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SearchTest.SearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTest.AvalibleInputSearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,9 +150,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value=":smoke" />
             <option value="--tests" />
-            <option value="&quot;tests.SearchTest.SearchTest&quot;" />
+            <option value="&quot;tests.SearchTest.AvalibleInputSearch&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,13 +161,59 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_17 [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_17 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CitySelectionTest.AvalibleSearchTest" />
-        <item itemvalue="Gradle.CitySelectionTest.CitySelectionTest" />
-        <item itemvalue="Gradle.SearchTest.SearchTest" />
+        <item itemvalue="Gradle.hw_17 [allureServe]" />
+        <item itemvalue="Gradle.SearchTest" />
+        <item itemvalue="Gradle.CitySelectionTest" />
+        <item itemvalue="Gradle.hw_17 [allureReport]" />
+        <item itemvalue="Gradle.SearchTest.AvalibleInputSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -154,12 +242,50 @@
       <option name="project" value="LOCAL" />
       <updated>1706127593580</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added several test, deleted unusing class">
+      <option name="closed" value="true" />
+      <created>1706368124152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706368124152</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added allure reports">
+      <option name="closed" value="true" />
+      <created>1706375463763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706375463763</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added display name">
+      <option name="closed" value="true" />
+      <created>1706550305155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706550305155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit:&#10;create tests tree&#10;create first search test" />
     <MESSAGE value="added CitySelectionTest&#10;added CityChangePage.java&#10;passed 2 local tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CitySelectionTest&#10;added CityChangePage.java&#10;passed 2 local tests" />
+    <MESSAGE value="added several test, deleted unusing class" />
+    <MESSAGE value="added allure reports" />
+    <MESSAGE value="added display name" />
+    <option name="LAST_COMMIT_MESSAGE" value="added display name" />
   </component>
 </project>
