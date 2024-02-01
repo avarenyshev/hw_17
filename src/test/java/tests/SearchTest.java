@@ -40,7 +40,7 @@ public class SearchTest {
         step("Открываем главную страницу citilink.ru", () -> {
             mainPage.openPage();
         });
-        step("Проверяем выдачу поиска по наименованию", () -> {
+        step("Проверяем выдачу поиска по"+TestData.searchItem, () -> {
             mainPage.inputQuery(TestData.searchItem)
                     .checkSearchResult();
         });
@@ -52,7 +52,7 @@ public class SearchTest {
         step("Открываем главную страницу citilink.ru", () -> {
             mainPage.openPage();
         });
-        step("Проверяем выдачу поиса по ID", () -> {
+        step("Проверяем выдачу поиса по ID"+TestData.searchId, () -> {
             mainPage.inputQuery(TestData.searchId)
                     .chechSearchIdResult();
         });

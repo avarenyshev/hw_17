@@ -9,27 +9,40 @@ import org.junit.jupiter.api.Test;
 import pages.CityChangePage;
 import pages.MainPage;
 
+import static io.qameta.allure.Allure.step;
+
 public class CitySelectionTest {
     MainPage mainPage = new MainPage();
     CityChangePage cityChangePage = new CityChangePage();
     TestData testData = new TestData();
+
     @Test
     @DisplayName("Проверка выбора города")
     @Tag("acceptence")
     void CitySelectionTest() {
-        mainPage.openPage();
-        cityChangePage.CityChangeButton()
-                .SearchCity(TestData.city)
-                .SearchResultSelect()
-                .CheckChosenCity();
+        step("Открываем главную страницу citilink.ru", () -> {
+            mainPage.openPage();
+        });
+        step("Устанавливаем город" + TestData.city, () -> {
+            cityChangePage.CityChangeButton()
+                    .SearchCity(TestData.city)
+                    .SearchResultSelect();
+        });
+        step("Проверяем установку города" + TestData.city, () -> {
+            cityChangePage.CheckChosenCity();
+        });
     }
 
     @Test
     @DisplayName("Проверка доступности поиска по городу")
     @Tag("smoke")
     void AvalibleSearchTest() {
-        mainPage.openPage();
-        cityChangePage.CityChangeButton()
-                .AvalibleInputCity();
+        step("Открываем главную страницу citilink.ru", () -> {
+            mainPage.openPage();
+        });
+        step("Проверка доступность строки ввода города", () -> {
+            cityChangePage.CityChangeButton()
+                    .AvalibleInputCity();
+        });
     }
 }
