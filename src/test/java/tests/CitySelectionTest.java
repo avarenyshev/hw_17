@@ -11,7 +11,7 @@ import pages.MainPage;
 
 import static io.qameta.allure.Allure.step;
 
-public class CitySelectionTest {
+public class CitySelectionTest extends TestBase {
     MainPage mainPage = new MainPage();
     CityChangePage cityChangePage = new CityChangePage();
     TestData testData = new TestData();

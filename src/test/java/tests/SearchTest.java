@@ -10,7 +10,7 @@ import pages.MainPage;
 
 import static io.qameta.allure.Allure.step;
 
-public class SearchTest {
+public class SearchTest extends TestBase {
     MainPage mainPage = new MainPage();
     TestData testData = new TestData();
 
