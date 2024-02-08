@@ -3,10 +3,12 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import config.WebDriverProvider;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
@@ -30,6 +32,10 @@ public class TestBase {
         ));
         Configuration.browserCapabilities = capabilities;
     }
+//    @BeforeEach
+//    public void startDriver() {
+//        driver = new WebDriverProvider().get();
+//    }
 
     @AfterEach
     public void afterEach() {
