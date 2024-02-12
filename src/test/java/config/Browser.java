@@ -2,7 +2,7 @@ package config;
 
 public enum Browser {
 
-    Firefox,
+    FIREFOX,
 
-    Chrome
+    CHROME
 }

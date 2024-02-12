@@ -1,21 +1,25 @@
 package tests;
 
+import config.WebDriverProvider;
 import data.TestData;
 import helpers.Attach;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+import org.openqa.selenium.WebDriver;
 import pages.CityChangePage;
 import pages.MainPage;
 
 import static io.qameta.allure.Allure.step;
+import static java.sql.DriverManager.getDriver;
 
 public class CitySelectionTest extends TestBase {
     MainPage mainPage = new MainPage();
     CityChangePage cityChangePage = new CityChangePage();
     TestData testData = new TestData();
-
+    private WebDriver driver;
+    @BeforeEach
+    public void startDriver() {
+        driver = new WebDriverProvider().get();
+    }
     @Test
     @DisplayName("Проверка выбора города")
     @Tag("acceptence")

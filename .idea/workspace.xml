@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4a839fc-1e8f-48d8-ab93-1ebc0f35dfb5" name="Changes" comment="fixed problem with report's attachs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/WebDriverConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/WebDriverProvider.java" afterDir="false" />
+    <list default="true" id="f4a839fc-1e8f-48d8-ab93-1ebc0f35dfb5" name="Changes" comment="have installed config optins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706818039179</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="have installed config optins">
+      <option name="closed" value="true" />
+      <created>1707422355153</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707422355153</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +316,7 @@
     <MESSAGE value="added steps in SearchTest" />
     <MESSAGE value="added steps in CitySelectionTest" />
     <MESSAGE value="fixed problem with report's attachs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed problem with report's attachs" />
+    <MESSAGE value="have installed config optins" />
+    <option name="LAST_COMMIT_MESSAGE" value="have installed config optins" />
   </component>
 </project>
